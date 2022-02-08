@@ -1,0 +1,292 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.container{
+    display: flex;
+   
+}
+.left-side{
+    display: flex;
+    flex-direction: column;
+    background: #fff;
+    width: 460px;
+    height: 657px;
+    border-right: 1px groove #c8d6e5;
+}
+.left-header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 60px;
+    border-bottom: 1px groove #c8d6e5;
+}
+.left-header p{
+    font-weight: bold;
+    font-size: 20px;
+}
+.left-header i{
+    width: 20px;
+    height: 20px;
+    padding: 0 10px 0 10px;
+    cursor: pointer;
+}
+.left-header i:hover{
+    opacity: .8;
+}
+
+.s-box{
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-bottom: 1px groove #c8d6e5;
+}
+.s-box input{
+    width: 300px;
+    height: 20px;
+    border-radius: 4px;
+    outline: none;
+    font-size: 12px;
+    background: #e7e8ec;
+    border: none;
+}
+.s-box form{
+    display: flex;
+    position: relative;
+}
+.s-box img{
+    position: absolute;
+    right: 2px;
+    top: 2px;
+    width: 15px;
+    height: 15px;
+    opacity: .5;
+}
+
+.account{
+    display: flex;
+    align-items: center;
+    position: relative;
+    border-bottom: 1px groove #c8d6e5;
+    height: 70px;
+    cursor: pointer;
+}
+.message1 span{
+    color: #2d3436;
+}
+.account:hover{
+    opacity: .6;
+}
+.photo1{
+    display: flex;
+    width: 50px;
+    height: 50px;
+    position: absolute;
+    left: 10px;
+}
+.photo1 img{
+    border-radius: 100%;
+}
+.aliyev {
+    width: 50px;
+}
+.putin{
+    width: 50px;
+}
+
+.message1{
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    left: 70px;
+}
+.message1 :nth-child(1){
+    font-weight: bold;
+    font-size: 18px;
+}
+.time1{
+    position: absolute;
+    right: 10px;
+    bottom: 18px;
+    
+}
+
+.main-side{
+    background: #fff;
+    width: 100%;
+    height: 609px;
+}
+.main{
+    display: flex;
+}
+.left-main{
+    width: 700px;
+    height: 609px;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    height: 608px;
+    border-right: 1px groove #c8d6e5;
+}
+.date{
+    display: flex;
+    justify-content: center;
+    padding: 10px;
+}
+.date p{
+    color: #2d3436;
+}
+.message{
+    display: flex;
+    justify-content: right;
+    padding: 0 20px;
+    height: 535px;
+}
+.message p{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 120px;
+    height: 30px;
+    background: #006AFF;
+    color: #E4E6EB;
+    border-radius: 10px;
+    
+}
+.right-main{
+    width: 330px;
+    height: 608px;
+}
+.main-header{
+    display: flex;
+    justify-content: center;
+    height: 47.45px;
+    position:relative;
+    border-bottom: 1px groove #c8d6e5;
+
+}
+
+.name{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;    
+}
+.name :nth-child(1){
+    font-size: 18px;
+    font-weight: bold;
+}
+.call{
+    width: 140px;
+    height: 30px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    position: absolute;
+    right: 20px;
+    top: 9px;
+}
+.call i{
+    cursor: pointer;
+    
+}
+.call i:hover{
+    opacity: .4;
+}
+
+
+
+
+
+.input{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    height: 30px;
+    border-top: 1px groove #c8d6e5;
+    padding: 8px;
+}
+.input input{
+    outline: none;
+    border-radius: 5px;
+    border-color: #fff;
+    width: 560px;
+    height: 23px;
+    border: none;
+    font-size: 14px;
+}
+.input i{
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+}
+.input i:hover{
+    opacity: .7;
+}
+
+.right-main label{
+    color: #2d3436;
+}
+.right-main p{
+    color: #2d3436;
+}
+.right-main img{
+    border-radius: 100%;
+}
+.photo2{
+    display: flex;
+    width: 50px;
+    height: 50px;
+    padding: 0 0 0 10px;
+}
+.message2{
+    display: flex;
+    flex-direction: column;
+    padding: 0 0 0 10px;
+}
+.message2 :nth-child(1){
+    font-weight: bold;
+    font-size: 20px;
+}
+.info{
+    display: flex;
+    align-items: center;
+    height: 70px;
+    border-bottom: 1px groove #c8d6e5;
+}
+.notification{
+    height: 60px;
+    display: flex;
+    align-items: center;
+}
+.notification form{
+    padding: 0 0 0 15px;
+    display: flex;
+    align-items: center;
+}
+.notification input{
+    width: 15px;
+    height: 20px;
+}
+.notification form label{
+    font-size: 18px;
+    color: #2d3436;
+    padding: 0 0 0 10px;
+}
+.link{
+    height: 80px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    border-top: 1px groove #c8d6e5;
+    padding: 0 0 0 15px;
+}
+.link p{
+    font-size: 17px;
+    padding: 4px;
+}
+.link a{
+    font-size: 17px;
+    padding: 4px;
+}
